@@ -1,0 +1,128 @@
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(24, 22, 22);
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(46, 46, 46));
+    text-align: center;
+    
+    
+}
+
+nav {
+    width: 1000px;
+    margin:auto;
+}
+
+nav a {
+    color: rgb(255,255,255);
+    width: 1000px;
+    margin: 50px;
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+article {
+    width: 1000px;
+    margin: auto;
+    height: 1235px;
+    background-color:rgb(46, 46, 46)
+}
+
+
+
+h1 {
+    width: 100%;
+    background-color:rgb(66, 66, 66);
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color:rgb(26, 26, 26);
+}
+
+.frontPicture {
+    width: 80%;
+    float: left;
+    height: 350px;
+    margin-top: 50px;
+    
+    
+}
+
+.sidePicture {
+    float:left;
+    width:20%;
+    margin-top: 50px;
+    height: 175px;
+    
+
+}
+
+.frontPicture img {
+    float:left;
+    height: 100%;
+    width:90%;
+    margin-left: 3%;
+
+}
+.sidePicture img {
+    margin-left: -8%;
+    float:left;
+    height: 100%;
+    width:96%;
+}
+
+.firstParagraph {
+    margin-top: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 45%;
+    height: 250px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.secondParagraph {
+   margin-top: 20px;
+
+    height: 250px;
+    background-color: aliceblue;
+    float: right;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 45%;
+}
+section p {
+    text-align: right;
+    
+}
+
+section img {
+    float: left;
+    width: 50%;
+    height: 250px;
+}
+
+footer {
+    width: 1000px;
+    background-color:rgb(66, 66, 66);
+    height: 200px;
+    
+    color:rgb(26, 26, 26);
+    margin:auto;
+}
+
+footer > p {
+    align-items: right;
+    width: 100%;
+   
+}
