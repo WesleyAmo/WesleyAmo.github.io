@@ -42,7 +42,8 @@ grid-template-areas:
 
 ul li {
     float:left;
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
     list-style-type: none;
 }
 
