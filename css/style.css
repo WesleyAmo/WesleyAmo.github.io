@@ -20,7 +20,7 @@ article {
     height: 200px;
     width: 1024px;
     margin: auto; 
-    height: 1065px;
+    height: 1000px;
     position: relative;
     
 }
@@ -104,7 +104,7 @@ ul {
     z-index: 1; /* Ensure the image is at the back */
 }
 
-.firstButton {
+.article1 {
     width: 314px;
     height: 130px;
     background-color: #FFFFFF;
@@ -120,7 +120,7 @@ ul {
     padding: 10px;
 } 
 
-.firstButton > button {
+.article1 > button {
     margin-top: 10px;
     text-transform: uppercase;
     width: 175px;
@@ -131,5 +131,53 @@ ul {
     font-size: 16px;
     text-shadow: #000000 1px 1px 2px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 2px 3px 5px #aaaaaa;
+    box-shadow: 2px px 5px #aaaaaa;
+}
+
+.article2 {
+    width: 301px;
+    height: 370px;
+    background-color: #ffffff;
+    margin: 30px;
+    float: left;
+    box-shadow: 2px 2px 5px #aaaaaa;
+    font-size: 9px;
+    text-align: center;
+}
+
+.article2 h2 {
+    margin-top: 10px;
+}
+.article3 {
+    width: 301px;
+    height: 300px;
+    background-color: #000000;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.article4 {
+    width: 301px;
+    height: 300px;
+    background-color: #000000;
+    margin-top: 30px;
+    float: left;
+}
+
+.article2image {
+    width: 100%;
+    height: 300px;
+}
+
+.pagebutton {
+    float: right;
+    width: 100px;
+    margin: 10px;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: #5B61EF;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
