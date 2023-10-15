@@ -18,6 +18,11 @@ nav {
 article {
     grid-area: articleTag;
     height: 200px;
+    width: 1024px;
+    margin: auto; 
+    height: 1065px;
+    position: relative;
+    
 }
 
 footer {
@@ -66,7 +71,7 @@ ul {
     margin: auto;
 }
 
-section {
+.section {
     width: 1024px;
     margin: auto;  
 }
@@ -83,16 +88,28 @@ section {
     margin-top: 40px;
 }
 
-.mainpage {
-    width: 1024px;
-    margin: auto;
-    
-    height: 1065px;
-}
-
 .copyright {
     line-height: 100px;
     color: #ffffff;
     font-size: 1.3em;
     float: left;
+}
+
+.placeholder {
+    width: 100%;
+    margin:25px;
+    height: 470px;
+    position: relative; /* Set the image to a relative position */
+    z-index: 1; /* Ensure the image is at the back */
+}
+
+.firstButton {
+    width: 334px;
+    height: 150px;
+    background-color: #2551BF;
+    position: absolute;
+    z-index: 2;
+    
+    top: 1px;
+    left: 345px;
 }
