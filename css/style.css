@@ -24,7 +24,6 @@ article {
     height: 2526px;
     position: relative;
     background-color:#1f2344;
-    
 }
 
 footer {
@@ -34,20 +33,11 @@ footer {
     
 }
 
-#grid-container
-{
-    display: grid;
-    grid-gap: 0px;
-/* column1   #column2    #column3    #column4 */
-grid-template-areas:
-    'headerTag  headerTag   headerTag   headerTag'
-    'articleTag articleTag  articleTag  articleTag'
-    'footerTag  footerTag   footerTag   footerTag';
-}
 
 .pageLogo {
     float: left;
     margin-top: 10px;
+    margin-left: 2%;
 }
 .navigationBar {
     width: 1200px;
@@ -67,7 +57,7 @@ li a {
 li {
     color: #FFFFFF;
     display: inline; 
-    margin: 40px;
+    margin: 30px;
 }
 
 .contactInfo {
@@ -79,6 +69,10 @@ li {
    
 }
 
+#currrentpage {
+    text-decoration: underline;
+}
+
 #homepagepicture {
     width: 100%;
     height: 405px;
@@ -87,6 +81,7 @@ li {
 
 #homepagepicture img {
     width: 100%;
+    height: 403px;
 }
 
 #welcomeHeader {
@@ -99,25 +94,25 @@ li {
     
 }
 
-.firstSection {
+#firstSectionhome {
     height: 930px;
     background-color: #307a99;
     width: 100%;
 }
 
-.secondSection {
+#secondSectionhome {
     margin-top: 35px;
     height: 287px;
     background-color: #29648a;
 }
 
-.thirdSection {
+#thirdSectionhome {
     margin-top: 35px;
     height: 446px;
     background-color: #307a99
 }
 
-.fourthSection {
+#fourthSectionhome {
     margin-top: 35px;
     height: 285px;
     background-color: #29648a;
@@ -180,7 +175,8 @@ h2 {
     margin-bottom: 5px;
 }
 
-.firstSection aside {
+
+#firstSectionhome aside {
    
     width: 482px;
     height: 332px;
@@ -203,11 +199,11 @@ h2 {
     height: 55px;
     background-color: #1F2344;
     color: #49BBFF;
-    margin-bottom: 200px;
+    
     position: absolute;
     top: 68%;
     left: 53%;
-    font-size: 25px;
+    font-size: 18px;
     font-family: sans-serif;  
     box-shadow: 3px 3px 4px #292626;
 }
@@ -241,7 +237,7 @@ aside img {
     border-color: #0AB7FF;
 }
 
-.thirdSection aside {
+#thirdSectionhome aside {
    
     width: 45%;
     height: 288px;
@@ -261,4 +257,197 @@ aside img {
     font-size: 20px;
     background-color: #1F2344;
     box-shadow: 4px 4px 4px #292626;
+}
+
+.copyrightInfo {
+    width: 88%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 25px;
+    
+}
+
+#articleschema {
+    height: 3194px;
+    grid-area: articleTag;
+    width: 1024px;
+    margin: auto; 
+    position: relative;
+    background-color:#1f2344;
+}
+
+#firstSectionschema {
+    
+    height: 275px;
+    background-color: #307a99;
+    width: 100%;
+}
+
+.schemasection {
+    margin-top: 35px;
+    height: 650px;
+    background-color: #29648a;
+}
+
+
+.schemasection, #leegschemasection > h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+} 
+
+.schemasection > p {
+    width: 40%;
+    padding-top: 80px;
+    float: left;
+    line-height: 34px;
+}
+
+.schemapicture {
+    width: 40%;
+    margin-top: 30px;
+    float: right;
+    background-color: #0AB7FF;
+    margin-right: 5%;
+    height: 510px;
+}
+
+.schemabutton {
+    margin-top: 30px;
+    width: 40%;
+    margin-left: 3%;
+    height: 50px;
+    float: left;
+    background-color:#1F2344;
+    color: #FFFFFF;
+    font-size: 14px;
+    box-shadow: 4px 4px 4px #292626;
+    
+}
+
+#leegschemasection {
+    margin-top: 35px;
+    height: 335px;
+    background-color: #307a99;
+}
+
+#leegschemasection > p {
+    width: 95%;
+    text-align: center;
+    line-height: 34px;
+}
+
+#leegschemasection .schemabutton {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+    
+}
+
+#colorchange {
+    background-color: #307a99;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+#tipsarticle {
+    grid-area: articleTag;
+    width: 1024px;
+    margin: auto; 
+    height: 2324px;
+    position: relative;
+    background-color:#1f2344;
+}
+#firstSectionTips {
+    height: 200px;
+    background-color: #307a99;
+    width: 100%;
+    margin-top: 35px;
+}
+
+#firstSectionTips > p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    line-height: 34px;
+    font-size: 20px;
+}
+
+#mainSectionTips {
+    width: 100%;
+    margin-top: 35px;
+    height: 1650px;
+    background-color:#29648A;
+}
+
+#mainSectionTips > p {
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 34px;
+    font-size: 18px;
+
+}
+
+#mainSectionTips > figure {
+    width: 90%;
+    margin: auto;
+    background-color: #0AB7FF;
+    height: 440px;
+    margin-top: 30px;
+}
+
+figure > img {
+    width: 100%;
+    height: 100%;
+}
+
+.halfParagraph {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 34px;
+    font-size: 18px;
+    height: 470px;
+    clear: both;
+    
+
+}
+
+.halfParagraph > p {
+    margin-top: 40px;
+    font-size: 18px;
+    width: 40%;
+    float: left;
+  
+}
+
+.halfParagraph > aside {
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    height: 430px;
+    margin-top: 40px;
+    
+}
+.halfpParagraph > p {
+    margin-top: 400px;
+}
+p a {
+    color: #FFFFFF;
+}
+
+
+#grid-container
+{
+    display: grid;
+    grid-gap: 0px;
+/* column1   #column2    #column3    #column4 */
+grid-template-areas:
+    'headerTag  headerTag   headerTag   headerTag'
+    'articleTag articleTag  articleTag  articleTag'
+    'footerTag  footerTag   footerTag   footerTag';
 }

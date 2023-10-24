@@ -11,13 +11,13 @@
 <body id="grid-container">
     <header>
         <img src="./img/newlogo.png" class="pageLogo"> 
-        <a class="contactInfo"> Contact </a>
+        <a href="contact.html" class="contactInfo"> Contact </a>
         <nav class="navigationBar">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">De Hardloopschema's</a></li>
-                <li><a href="#">Tips & Tricks</a></li>
-                <li><a href="#">Routes in de buurt</a></li>
+                <li><a id="currrentpage" href="index.html">Home</a></li>
+                <li><a href="hardloopschema.html">De Hardloopschema's</a></li>
+                <li><a href="tipstricks.html">Tips & Tricks</a></li>
+                <li><a href="routes.html">Routes in de buurt</a></li>
             </ul> 
         </nav>     
     </header>
@@ -29,7 +29,7 @@
 
        <h1 id="welcomeHeader">Welkom op de beste site voor de beginnende hardloper</h1>
 
-       <section class="firstSection">
+       <section id="firstSectionhome">
         <h2>Beginnen met hardlopen</h2>
         <p class="firstSectiontext"> Hardlopen is één van de meest toegankelijke manier van sport, iedereen kan het namelijk zo gaan doen en veel mensen doen het ook: waar je buiten ook maar komt, je komt bijna altijd wel iemand tegen die aan het hardlopen is. Bekijk hier hoe jij ook op de beste manier ook kan beginnen met hardlopen! </p>    
         <article class="articleParagraph">
@@ -40,27 +40,29 @@
         <article class="articleParagraph">
             <h3> 2. Bekijk de tips & tricks pagina </h3>
             <p>Op de tips & tricks pagina kun je de beste tips en tricks vinden die je helpen bij het hardlopen. Zo voorkom je meteen de meest gemaakte fouten en kan je gelijk de beste technieken toepassen.</p>
-            <button>
+            <a href="tipstricks.html"><button>
                 Tips & Tricks
             </button>
+            </a>
         </article> 
         <aside><img src="./img/placeholder.png"></aside> 
         <article class="articleParagraph">
             <h3> 3. Volg de hardloopschema's </h3>
             <p>Een hardloopschema is de beste hulpmiddel voor een beginnende hardloper,  een hardloopschema geeft hun namelijk veel motivatie om regelmatig te gaan hardlopen. Bekijk de schema's hiernaast.</p>
-            <button>
+            <a href="hardloopschema.html"><button>
                 Hardloopschema's
             </button>
+        </a>
         </article>
        </section>
 
-       <section class="secondSection">
+       <section id="secondSectionhome">
         <h2> Hardlopen in de buurt van Heerhugowaard </h2>
         <p class="secondSectiontext">Heerhugowaard kent tal van mooie natuurgebieden en goede wegen om te hardlopen. Woon je in Heerhugowaard en ben je nog op zoek naar leuke hardlooproutes bij jou in de buurt? Bekijk dan hier een aantal leuke hardlooproutes!</p>
-        <button class="biggerButton"> Bekijk hier de hardlooproutes in de buurt van Heerhugowaard </button>
+        <a href="routes.html"><button class="biggerButton"> Bekijk hier de hardlooproutes in de buurt van Heerhugowaard </button> </a>
        </section>
 
-       <section class="thirdSection">
+       <section id="thirdSectionhome">
         <h2> De gezondsheidsvoordelen van hardlopen </h2>
         <p class="thirdSectiontext"> Hardlopen heeft veel gezondheidsvoordelen. Hieronder staan de belangrijkste 5, kende jij ze allemaal al? </p>
         <aside><img src="./img/placeholder.png"></aside> 
@@ -71,10 +73,10 @@
         <p>5. Hardlopen geeft meer energie en verbeterd het slaapritme.</p>
        </section>
 
-       <section class="fourthSection">
+       <section id="fourthSectionhome">
         <h2> Hardlopen tips & tricks</h2>
         <p class="fourthSectiontext"> Hardlopen lijkt simpel: je gaat naar buiten en je gaat van start. Alleen is het wel zo simpel? Bekijk hier de tips & tricks en voorkom de meest gemaakte fouten! </p>
-        <button class="biggerButton"> Bekijk hier de hardlooproutes in de buurt van Heerhugowaard </button>
+        <a href="tipstricks.html"><button class="biggerButton"> Bekijk hier de tips & tricks en voorkom de meest gemaakte fouten! </button></a>
     
        </section>
 
@@ -82,7 +84,8 @@
     </article>
     
     <footer>
-      
+        <img src="./img/newlogo.png" class="pageLogo"> 
+        <p class="copyrightInfo"> &copy; 2023 Webdesign - Wesley Amoureus </p>
     </footer>
 </body>
 </html>
