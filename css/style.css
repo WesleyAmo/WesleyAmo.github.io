@@ -812,3 +812,7 @@ figcaption {
 #cookies:target {
     display: none;
 }
+
+#cookies > a {
+    color: #FFFFFF;
+}
