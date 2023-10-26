@@ -95,6 +95,9 @@ li {
     font-size: 20px;
     
 }
+#welcomeHeader::first-letter {
+    font-size: 1.2em;
+}
 
 #firstSectionhome {
     height: 930px;
@@ -137,41 +140,41 @@ h2 {
 }
 
 .firstSectiontext {
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 34px;
     height: 108px;
     width: 90%;
     margin: auto;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .secondSectiontext {
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 34px;
     height: 90px;
     width: 95%;
     margin: auto;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
 }
 
 .thirdSectiontext {
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 34px;
     height: 60px;
     width: 95%;
     margin: auto;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
 }
 .fourthSectiontext {
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 34px;
     height: 90px;
     width: 95%;
     margin: auto;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
 
 
@@ -198,7 +201,7 @@ h2 {
 .articleParagraph h3, h3 ~ p {
     text-align: left;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 1.1em;
     margin-top: 2%  ;
     padding-left: 3%;
     position: relative;
@@ -209,7 +212,6 @@ h2 {
     height: 55px;
     background-color: #1F2344;
     color: #49BBFF;
-    
     position: absolute;
     top: 68%;
     left: 53%;
@@ -240,9 +242,9 @@ aside img {
     line-height: 40px;
     margin-bottom: 20px;
     margin-left: 3%;
-    padding-left: 1%;
+    text-indent: 20px;
     float: left;
-    border: 1px;
+    border-width: 1px;
     border-style:solid;
     border-color: #0AB7FF;
 }
@@ -253,9 +255,9 @@ aside img {
     height: 288px;
     float: right;
     margin-right: 3%;
-    border: 1px;
     border-style:solid;
     border-color: #0AB7FF;
+    border-width: 1px;
   
 }
 
@@ -264,7 +266,7 @@ aside img {
     height: 90px;
     margin-left: 15%;
     color: #49BBFF;
-    font-size: 20px;
+    font-size: 1.4rem;
     background-color: #1F2344;
     box-shadow: 4px 4px 4px #292626;
 }
@@ -274,6 +276,7 @@ aside img {
     text-align: center;
     color: #FFFFFF;
     padding-top: 25px;
+    text-transform: uppercase;
     
 }
 
@@ -420,31 +423,33 @@ figure > img {
     margin-right: 5%;
     line-height: 34px;
     font-size: 18px;
-    height: 470px;
+    height: 480px;
     clear: both;
+    margin-bottom: 5px;
     
 
 }
 
 .halfParagraph > p {
+    
     margin-top: 40px;
     font-size: 18px;
     width: 40%;
     float: left;
+    
   
 }
 
-.halfParagraph > aside {
+.halfParagraph > figure {
     float: right;
-    width: 45%;
+    width: 50%;
     margin-right: 5%;
-    height: 430px;
-    margin-top: 40px;
+    height: 450px;
+    margin-top: 20px;
+
     
 }
-.halfpParagraph > p {
-    margin-top: 400px;
-}
+
 p a {
     color: #FFFFFF;
 }
@@ -468,14 +473,13 @@ p a {
     margin-top: 30px;
     height: 450px;
     background-color: #307A99;
-    border: 1px;
+    border-width: 1px;
     border-color: #0AB7FF;
     border-style: solid;
 }
 
 .routeinfo {
     width: 40%;
-    margin-left: 5%;
     line-height: 50px;
     font-weight: normal;
     margin-top: 2%;
@@ -492,7 +496,7 @@ p a {
     height: 350px;
     float: right;
     background-color: #0AB7FF;
-    border: 1px;
+    border-width: 1px;
     border-color: #0AB7FF;
     border-style: solid;
 }
@@ -519,6 +523,7 @@ p a {
 
 h4 {
     font-weight: normal;
+    text-indent: 30px;
 }
 
 .inforoutesection {
@@ -550,7 +555,7 @@ h4 {
     float: left;
     background-color: #307A99;
     line-height: 45px;
-    border: 1px;
+    border-width: 1px;
     border-color: #0AB7FF;
     border-style: solid;
 
@@ -592,7 +597,7 @@ h4 {
 }
 
 
-
+/* Deze mediaquery is zodat de pagina groot genoeg is voor groter scherm */
 @media only screen and (min-width: 2450px) {
     .routebeschrijving {
         height: 490px;
@@ -606,7 +611,7 @@ h4 {
     display: none;
     position: absolute;
     background-color: #181927bd; 
-    z-index: 1; 
+    z-index: 9998; 
     width: 280px;
     top: 200%; 
     left: -40px; 
@@ -648,7 +653,7 @@ h4 {
     padding-top: 5%;
     margin-top: 40px;
     border-radius: 10px;
-    border: 1px;
+    border-width: 1px;
     border-color: #0AB7FF;
     border-style: solid;
     
@@ -672,6 +677,7 @@ input {
     border-radius: 10px;
     font-size: 18px;
     padding-left: 5px;
+    color:#a1a1a1;
 }
 
 .phoneandemail {
@@ -679,7 +685,6 @@ input {
     width: 420px;
     float: left;
     margin-bottom: 60px;
-    
     
 }
 
@@ -718,9 +723,10 @@ select {
 
 textarea {
     font-size: 18px;
+    resize: none;
 }
 
-#textfield + button {
+#verstuurknopform {
     float: right;
     margin-right: 45px;
     height: 50px;
@@ -741,6 +747,7 @@ a:visited {
     text-decoration: none;
     line-height: 50px;
     padding-left: 10px;
+   
 }
 
 #contactarticle {
@@ -766,5 +773,43 @@ grid-template-areas:
     font-size: 3em;
     word-spacing: 20px;
     text-transform: uppercase;
+    letter-spacing: 3px;
 
+}
+
+#homepagepicture > h1::first-letter {
+    font-size: 1.3em;
+}
+
+legend {
+    text-indent: 40px;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+#cookies {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    height: 50px;
+    width: 400px;
+    background-color: #023622;
+    z-index: 9999;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:4px 4px 4px #292626;
+}
+
+
+
+#cookies:target {
+    display: none;
 }
