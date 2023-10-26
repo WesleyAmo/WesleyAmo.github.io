@@ -806,9 +806,8 @@ figcaption {
     text-align: center;
     border-radius: 5px;
     box-shadow:4px 4px 4px #292626;
+    color: #FFFFFF;
 }
-
-
 
 #cookies:target {
     display: none;
