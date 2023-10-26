@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Hardlopen Heerhugowaard - Home</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body id="grid-container">
+    <header>
+        <img src="./img/newlogo.png" class="pageLogo"> 
+        <a href="contact.html" class="contactInfo"> Contact </a>
+        <nav class="navigationBar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hardloopschema.html">De hardloopschema's</a></li>
+                <li><a href="tipstricks.html">Tips & Tricks</a></li>
+                    <li>
+                        <a href="routes.html">Routes in de buurt</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="route_waarderhout.html">Route Waarderhout</a></li>
+                            <li><a href="route_bomenwijk.html">Route Bomenwijk</a></li>
+                            <li><a href="route_platteland.html">Route Platteland</a></li>
+                            <li><a href="route_polder.html">Route Polder</a></li>
+                        </ul>
+                    </li>
+            </ul> 
+        </nav>     
+    </header>
+    <article>
+        <section id="contactinfo">
+            <h1> Contact </h1>
+            <h2>Algemene informatie</h2>
+            <p><strong>Email:</strong> hardlopenheerhuwaard@gmail.com</p>
+            <p><strong>Telefoonnummer:</strong> 06 - 5459 0000</p>
+            <p><strong>Postadres:</strong> 1707 HH</p>
+            <p><strong>Plaats:</strong> Heerhugowaard</p>
+        </section>
+        <section id="contactform">
+            <form>
+                <section>
+                    <label> Voornaam:* </label>
+                    <input type="text">
+                </section>
+                <section>
+                    <label> Tussenvoegsel: </label>
+                    <input type="text">
+                </section>
+                <section>
+                    <label> Achternaam:* </label>
+                    <input type="text">
+                </section>
+                <section class="phoneandemail">
+                    <label> Telefoonnummer:* </label>
+                    <input type="number">
+                </section>
+                <section class="phoneandemail">
+                    <label> Email:* </label>
+                    <input type="email">
+                </section>
+                <section id="dropdownSection">
+                    <label>Kies een onderwerp:</label>
+                    <select>
+                        <option value="option1">Selecteer een onderwerp </option>
+                        <option value="option1">Ik heb een vraag over een bepaalde route</option>
+                        <option value="option2">Ik heb een vraag over de hardloopschema's</option>
+                        <option value="option3">Ik wil meer weten over de voordelen van hardlopen</option>
+                        <option value="option3">Ik heb een vraag over de tips & tricks</option>
+                        <option value="option3">Ik heb een suggestie voor deze website</option>
+                        <option value="option3">Anders, namelijk .... </option>
+                    </select>
+                </section>
+                <section id="textfield">
+                    <label> Stel je vraag:* </label>
+                    <textarea></textarea>
+                </section>
+                <button> Verstuur </button>
+            </form>
+        </section>
+    </article>
+   
+     <footer>
+         <img src="./img/newlogo.png" class="pageLogo"> 
+         <p class="copyrightInfo"> &copy; 2023 Webdesign - Wesley Amoureus </p>
+     </footer>
+ </body>
+ </html>
+ 
