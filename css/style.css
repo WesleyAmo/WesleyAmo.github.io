@@ -369,7 +369,7 @@ button:hover {
     grid-area: articleTag;
     width: 1024px;
     margin: auto; 
-    height: 2340px;
+    height: 2440px;
     position: relative;
     background-color:#1f2344;
 }
@@ -391,7 +391,7 @@ button:hover {
 #mainSectionTips {
     width: 100%;
     margin-top: 35px;
-    height: 1650px;
+    height: 1750px;
     background-color:#29648A;
 }
 
@@ -405,10 +405,10 @@ button:hover {
 }
 
 #mainSectionTips > figure {
-    width: 90%;
+    width: 75%;
     margin: auto;
     background-color: #0AB7FF;
-    height: 440px;
+    height: 540px;
     margin-top: 30px;
 }
 
@@ -495,7 +495,6 @@ p a {
     
     height: 350px;
     float: right;
-    background-color: #0AB7FF;
     border-width: 1px;
     border-color: #0AB7FF;
     border-style: solid;
