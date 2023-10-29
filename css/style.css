@@ -31,6 +31,7 @@ footer {
     grid-area: footerTag;
     height: 70px;
     background-color:#181927;
+    position: relative;
     
 }
 
@@ -278,11 +279,11 @@ aside img {
 }
 
 .copyrightInfo {
-    width: 88%;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 25px;
-    text-transform: uppercase;
+    position: absolute;
+    left: 44%;
+    top: 35%;
+    
+
     
 }
 
@@ -822,6 +823,8 @@ figcaption {
     color: #FFFFFF;
 }
 
+
+/* Ervoor zorgen dat alle pagina's en headers ook goed op mobile passen */
 @media screen and (max-width: 1068px) {
   .pageLogo {
     display: none;
