@@ -214,9 +214,10 @@ h2 {
     position: relative;
 }
 
-.articleParagraph button {
+.articleParagraph a {
     width: 215px;
     height: 55px;
+    line-height: 55px;
     background-color: #1F2344;
     color: #49BBFF;
     position: absolute;
@@ -225,6 +226,9 @@ h2 {
     font-size: 18px;
     font-family: sans-serif;  
     box-shadow: 3px 3px 4px #292626;
+    text-align: center;
+    text-decoration: none;
+    
 }
 
 aside img {
@@ -232,15 +236,7 @@ aside img {
     height: 100%;
 }
 
-.biggerButton {
-    width: 70%;
-    height: 90px;
-    margin-left: 15%;
-    color: #49BBFF;
-    font-size: 20px;
-    background-color: #1F2344;
-    box-shadow: 4px 4px 4px #292626;
-}
+
 
 .thirdSectiontext ~ p {
     height: 40px;
@@ -269,13 +265,18 @@ aside img {
 }
 
 .biggerButton {
-    width: 70%;
-    height: 90px;
-    margin-left: 15%;
-    color: #49BBFF;
-    font-size: 1.4rem;
+    width: 80%;
+    height: 55px;
+    line-height: 55px;
     background-color: #1F2344;
-    box-shadow: 4px 4px 4px #292626;
+    color: #49BBFF;
+    position: absolute;
+    left: 10%;
+    font-size: 18px;
+    font-family: sans-serif;  
+    box-shadow: 3px 3px 4px #292626;
+    text-align: center;
+    text-decoration: none;
 }
 
 .copyrightInfo {
@@ -342,8 +343,10 @@ aside img {
     color: #FFFFFF;
     font-size: 14px;
     box-shadow: 4px 4px 4px #292626;
-    
+    line-height: 50px;
+    text-decoration: none;
 }
+
 
 #leegschemasection {
     margin-top: 35px;
@@ -361,6 +364,7 @@ aside img {
     width: 80%;
     margin-left: 10%;
     font-size: 18px;
+    text-align: center;
     
 }
 
@@ -514,17 +518,21 @@ p a {
     margin-top: 35px;
 }
 
-.routeinfo > a > button {
+.routeinfo > a {
     width: 275px;
     height: 65px;
     color: white;
     background-color: #1F2344;
-    margin-left: 20%;
-    margin-top: 5%;
-    font-size: 20px;
+    font-size:  17px;
     font-family:Arial, Helvetica, sans-serif;
     box-shadow:4px 4px 4px #292626;
     font-weight: bold;
+    position: absolute;
+    line-height: 65px;
+    text-align: center;
+    left: 10%;
+    text-decoration: none;
+
 }
 
 h4 {
