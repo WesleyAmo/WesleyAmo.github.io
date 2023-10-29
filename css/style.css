@@ -822,7 +822,7 @@ figcaption {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .pageLogo {
     display: none;
   }
