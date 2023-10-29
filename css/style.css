@@ -826,11 +826,11 @@ figcaption {
   .pageLogo {
     display: none;
   }
-  .routebeschrijving {
-    height: 1500px;
+  #routeinfoarticle {
+    height: 2200px;
   }
   .contactInfo {
-    right: 20px;
+    right: 5px;
   }
 
 }
