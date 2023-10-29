@@ -825,7 +825,7 @@ figcaption {
 
 
 /* Ervoor zorgen dat alle pagina's en headers ook goed op mobile passen */
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 768px) {
   .pageLogo {
     display: none;
   }
@@ -836,7 +836,7 @@ figcaption {
     right: 5px;
   }
   .copyrightInfo {
-    left: 38%;
+    left: 36%;
   }
 
 }
