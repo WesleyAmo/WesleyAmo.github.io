@@ -42,7 +42,7 @@ footer {
 
 }
 .navigationBar {
-    width: 1000px;
+    width: 1024px;
     margin: auto;  
     text-align: center;
 }
@@ -819,4 +819,10 @@ figcaption {
 
 #cookies > a {
     color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .pageLogo {
+    display: none;
+  }
 }
