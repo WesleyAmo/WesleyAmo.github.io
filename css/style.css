@@ -550,7 +550,7 @@ h4 {
     
 }
 
-#satalitemap {
+.maps > img {
     float: left;
     height: 95%;
     width: 50%;
