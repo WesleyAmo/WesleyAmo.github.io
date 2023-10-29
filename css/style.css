@@ -38,8 +38,8 @@ footer {
 
 .pageLogo {
     float: left;
- margin-left: 5px;
- margin-top: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
  
 
 }
@@ -269,7 +269,6 @@ aside img {
     height: 55px;
     line-height: 55px;
     background-color: #1F2344;
-    color: #49BBFF;
     position: absolute;
     left: 10%;
     font-size: 18px;
@@ -340,7 +339,6 @@ aside img {
     height: 50px;
     float: left;
     background-color:#1F2344;
-    color: #FFFFFF;
     font-size: 14px;
     box-shadow: 4px 4px 4px #292626;
     line-height: 50px;
@@ -372,9 +370,7 @@ aside img {
     background-color: #307a99;
 }
 
-button:hover {
-    cursor:pointer;
-}
+
 
 #tipsarticle {
     grid-area: articleTag;
