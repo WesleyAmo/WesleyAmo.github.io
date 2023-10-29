@@ -219,7 +219,7 @@ h2 {
     height: 55px;
     line-height: 55px;
     background-color: #1F2344;
-    color: #49BBFF;
+    color: #FFFFFF;
     position: absolute;
     top: 68%;
     left: 53%;
@@ -276,6 +276,7 @@ aside img {
     box-shadow: 3px 3px 4px #292626;
     text-align: center;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .copyrightInfo {
