@@ -39,6 +39,7 @@ footer {
     float: left;
  margin-left: 5px;
  margin-top: 10px;
+ 
 
 }
 .navigationBar {
@@ -821,7 +822,7 @@ figcaption {
     color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .pageLogo {
     display: none;
   }
