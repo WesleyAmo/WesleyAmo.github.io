@@ -822,8 +822,12 @@ figcaption {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 768px) {
   .pageLogo {
     display: none;
   }
+  .routebeschrijving {
+    height: 3000px;
+  }
+
 }
