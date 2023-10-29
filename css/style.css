@@ -612,13 +612,16 @@ h4 {
     width: 280px;
     top: 200%; 
     left: -40px; 
+    height: 280px;
+    padding-top: 20px;
+    margin-top: -20px;
 }
 
 .navigationBar li {
     position: relative;
 }
 
-.navigationBar:hover .dropdown-menu {
+.dropdownselect:hover .dropdown-menu {
     display: block;
 }
 
