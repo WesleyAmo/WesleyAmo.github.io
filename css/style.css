@@ -280,9 +280,9 @@ aside img {
 
 .copyrightInfo {
     position: absolute;
-    left: 44%;
+    left: 42%;
     top: 35%;
-    
+    text-transform: uppercase;
 
     
 }
@@ -834,6 +834,9 @@ figcaption {
   }
   .contactInfo {
     right: 5px;
+  }
+  .copyrightInfo {
+    left: 50%;
   }
 
 }
