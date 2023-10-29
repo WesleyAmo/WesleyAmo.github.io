@@ -437,7 +437,6 @@ figure > img {
 }
 
 .halfParagraph > p {
-    
     margin-top: 40px;
     font-size: 18px;
     width: 40%;
@@ -602,17 +601,6 @@ h4 {
     height: 1050px;
     position: relative;
     background-color:#1f2344;
-}
-
-
-/* Deze mediaquery is zodat de pagina groot genoeg is voor groter scherm */
-@media only screen and (min-width: 2450px) {
-    .routebeschrijving {
-        height: 490px;
-    }
-    #routeinfoarticle {
-        height: 1190px;
-    }
 }
 
 .dropdown-menu {
@@ -841,4 +829,14 @@ figcaption {
     left: 36%;
   }
 
+}
+
+/* Deze mediaquery is zodat de pagina groot genoeg is voor groter scherm */
+@media only screen and (min-width: 2450px) {
+    .routebeschrijving {
+        height: 490px;
+    }
+    #routeinfoarticle {
+        height: 1190px;
+    }
 }
