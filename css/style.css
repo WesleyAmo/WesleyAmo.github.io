@@ -669,7 +669,7 @@ h4 {
     
 }
 
-form > section {
+fieldset > section {
     margin-left: 40px;
     width: 260px;
     float: left;
